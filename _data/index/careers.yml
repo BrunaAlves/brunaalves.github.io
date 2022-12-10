@@ -2,20 +2,20 @@
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name: Service Heroes
   link: 
-  date: August 2019 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i> (Netherlands)
+  date: Aug 2019 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i> (Netherlands)
   job: Junior Developer
 
 - name: Rbm Web - Sistemas Inteligentes
   link: 
-  date: October 2018 - February 2019 (Brazil)
+  date: Oct 2018 - Feb 2019 (Brazil)
   job: Junior PHP Developer
 
 - name: Solucionar Informática e Sistemas
   link: 
-  date: 2017 - 2018 (Brazil)
+  date: Feb 2017 - Jan 2018 (Brazil)
   job: Software Quality Assurance Intern
 
 - name: T-Systems do Brasil
   link: 
-  date: 2015 - 2017 (Brazil)
+  date: Jul 2015 - Jan 2017 (Brazil)
   job: Intern in Partner Management & End-User-Service

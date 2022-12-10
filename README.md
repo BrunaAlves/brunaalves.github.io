@@ -9,3 +9,11 @@ Bruna Alves.
 
 
 IMPORTANT: This template isn't mine. You can find it in the project: https://github.com/renyuanz/leonids
+
+
+Steps to run it:
+    - gem install github-pages, 
+    - gem install jekyll
+    - gem install jekyll-feed
+    - bundle update
+    - bundle exec jekyll serve
