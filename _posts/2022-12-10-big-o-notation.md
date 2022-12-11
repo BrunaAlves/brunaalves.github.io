@@ -9,6 +9,9 @@ On my path learning data structure, I thought It'd be nice to make a post with a
 
 ![Big O](http://localhost:4000/img/big-o-graph.png){:height="330px" width="520px"}
 
+
+<!--more-->
+
 ### What is Big O?
 
 ### O(n)

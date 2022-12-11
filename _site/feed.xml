@@ -6,7 +6,7 @@
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
     <pubDate>2022-12-11</pubDate>
-    <lastBuildDate>Sun, 11 Dec 2022 11:52:14 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 11 Dec 2022 12:00:57 +0100</lastBuildDate>
     <generator>Jekyll v3.9.2</generator>
     
       <item>
@@ -14,6 +14,8 @@
         <description>&lt;p&gt;On my path learning data structure, I thought It’d be nice to make a post with a quick explanation about Big O notation with Java examples.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/img/big-o-graph.png&quot; alt=&quot;Big O&quot; height=&quot;330px&quot; width=&quot;520px&quot; /&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
 
 &lt;h3 id=&quot;what-is-big-o&quot;&gt;What is Big O?&lt;/h3&gt;
 
