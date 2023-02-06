@@ -5,9 +5,50 @@
     <description>Sharing my thoughts out loud</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>2023-01-16</pubDate>
-    <lastBuildDate>Mon, 16 Jan 2023 21:28:54 +0100</lastBuildDate>
+    <pubDate>2023-02-05</pubDate>
+    <lastBuildDate>Sun, 05 Feb 2023 15:30:46 +0100</lastBuildDate>
     <generator>Jekyll v3.9.2</generator>
+    
+      <item>
+        <title>What is data structure?</title>
+        <description>&lt;p&gt;A quick explanation about what is data structure and its types.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h3 id=&quot;what-is-data-structure&quot;&gt;What is Data Structure?&lt;/h3&gt;
+
+&lt;p&gt;A data structure is a way to store, organize, process and retrieve data in the computer memory. It is a way of arranging data and access it in an efficient way.&lt;/p&gt;
+
+&lt;h4 id=&quot;types-of-data-structure&quot;&gt;Types of Data Structure&lt;/h4&gt;
+
+&lt;h5 id=&quot;linear-data-structures&quot;&gt;Linear Data Structures&lt;/h5&gt;
+
+&lt;h6 id=&quot;array&quot;&gt;Array&lt;/h6&gt;
+&lt;h6 id=&quot;stack&quot;&gt;Stack&lt;/h6&gt;
+&lt;h6 id=&quot;queue&quot;&gt;Queue&lt;/h6&gt;
+&lt;h6 id=&quot;linked-list&quot;&gt;Linked list&lt;/h6&gt;
+
+&lt;h5 id=&quot;non-linear-data-structures&quot;&gt;Non-Linear Data Structures&lt;/h5&gt;
+
+&lt;h6 id=&quot;tree&quot;&gt;Tree&lt;/h6&gt;
+&lt;h6 id=&quot;graph&quot;&gt;Graph&lt;/h6&gt;
+
+&lt;p&gt;References:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://www.geeksforgeeks.org/what-is-data-structure-types-classifications-and-applications/&lt;/li&gt;
+  &lt;li&gt;https://www.javatpoint.com/data-structure-introduction&lt;/li&gt;
+  &lt;li&gt;https://www.simplilearn.com/tutorials/data-structure-tutorial/what-is-data-structure&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>2023-02-05</pubDate>
+        <link>http://localhost:4000/articles/2023-01/what-is-data-structure</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2023-01/what-is-data-structure</guid>
+        
+        
+        <category>data structure</category>
+        
+      </item>
     
       <item>
         <title>Big O notation</title>
@@ -79,7 +120,7 @@
   &lt;li&gt;https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>2023-01-16</pubDate>
+        <pubDate>2023-02-05</pubDate>
         <link>http://localhost:4000/articles/2022-12/big-o-notation</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2022-12/big-o-notation</guid>
         
