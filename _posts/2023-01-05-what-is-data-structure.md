@@ -19,15 +19,24 @@ A data structure is a way to store, organize, process and retrieve data in the c
 ##### Linear Data Structures
 
 ###### Array
-###### Stack
-###### Queue
-###### Linked list
+An array is a data structure with multiple fix number of elements and the same data type.
 
+###### Stack
+LIFO(Last In, First Out)
+
+###### Queue
+FIFO(First In, First Out)
+
+###### Linked list
+A linked list store a collection of data elements dynamically 
 
 ##### Non-Linear Data Structures
 
 ###### Tree
+It contains a collection of nodes in a hierarchy, which every node parent has other 1 or 2 children, and so on for each child
+
 ###### Graph
+It contains a finite number of nodes or vertices and the edges connecting them
 
 
 
