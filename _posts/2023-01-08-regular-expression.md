@@ -12,7 +12,7 @@ Wip
 
 ### What is Regular expression?
 
-
+It is a technology for expression pattern of text using symbols
 
 References:
 
