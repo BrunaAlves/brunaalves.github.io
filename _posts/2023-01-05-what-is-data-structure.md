@@ -17,6 +17,7 @@ A data structure is a way to store, organize, process and retrieve data in the c
 #### Types of Data Structure
 
 ##### Linear Data Structures
+As the name says, the data are arranged sequentially or linearly.Each element points to its previous and next adjacent elements.
 
 ###### Array
 An array is a data structure with multiple fix number of elements and the same data type.
@@ -31,6 +32,7 @@ FIFO(First In, First Out)
 A linked list store a collection of data elements dynamically 
 
 ##### Non-Linear Data Structures
+The data are not placed sequentially or linearly. The elements point to multiples other elements.
 
 ###### Tree
 It contains a collection of nodes in a hierarchy, which every node parent has other 1 or 2 children, and so on for each child
