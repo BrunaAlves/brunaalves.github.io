@@ -89,10 +89,32 @@ Space Complexity(Worst case scenario: O(n)
 The data are not placed sequentially or linearly. The elements point to multiples other elements.
 
 ###### Tree
-It contains a collection of nodes in a hierarchy, which every node parent has other 1 or 2 children, and so on for each child
+It contains a collection of nodes in a hierarchy, which every node parent has other 1 or 2 children, and so on for each child.
+It does not store the data sequentially but multiple levels.
+
+![JavaTPoint Image](https://static.javatpoint.com/ds/images/ds-introduction9.png)
+
+Time Complexity(Worst case scenario):
+- Access: O(n)
+- Search: O(n)
+- Insertion: O(n)
+- Deletion: O(n)
+
+Space Complexity(Worst case scenario: O(n)
 
 ###### Graph
-It contains a finite number of nodes or vertices and the edges connecting them
+A graph doesn't have root node and no standard order of arranged. It contains a finite number of nodes or vertices and the edges connecting them.
+
+
+![JavaTPoint Image](https://static.javatpoint.com/ds/images/ds-introduction10.png)
+
+Time Complexity(Worst case scenario):
+- Access: O(n)
+- Search: O(n)
+- Insertion: O(n)
+- Deletion: O(n)
+
+Space Complexity(Worst case scenario: O(n)
 
 
 
