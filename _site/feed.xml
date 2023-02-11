@@ -6,7 +6,7 @@
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
     <pubDate>2023-02-11</pubDate>
-    <lastBuildDate>Sat, 11 Feb 2023 14:08:10 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 11 Feb 2023 15:29:00 +0100</lastBuildDate>
     <generator>Jekyll v3.9.2</generator>
     
       <item>
@@ -25,7 +25,9 @@
 &lt;p&gt;As the name says, the data are arranged sequentially or linearly. Each element points to its previous and next adjacent elements.&lt;/p&gt;
 
 &lt;h6 id=&quot;array&quot;&gt;Array&lt;/h6&gt;
-&lt;p&gt;An array is a static data structure with multiple fixed number of elements and the same data type that can be modified later. Each element has its own place/index in the list even though they shared the same variable name. In every index it’s possible to set a value and this value/element can be access by its specific index, helping to find the value in the list.&lt;/p&gt;
+&lt;p&gt;An array is a static data structure with multiple fixed number of elements and the same data type that can be modified later. 
+Each element has its own place/index in the list even though they shared the same variable name. 
+In every index it’s possible to set a value and this value/element can be access by its specific index, helping to find the value in the list.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://static.javatpoint.com/ds/images/ds-introduction3.png&quot; alt=&quot;JavaTPoint Image&quot; /&gt;&lt;/p&gt;
 
@@ -40,7 +42,8 @@
 &lt;p&gt;Space Complexity(Worst case scenario: O(n)&lt;/p&gt;
 
 &lt;h6 id=&quot;linked-list&quot;&gt;Linked list&lt;/h6&gt;
-&lt;p&gt;A linked list store a collection of data elements dynamically, separating them and stored consecutively in the memory. They are linked using pointers to refer to next element if singly linked list, doubly linked list also point to previous element.&lt;/p&gt;
+&lt;p&gt;A linked list store a collection of data elements dynamically, separating them and stored consecutively in the memory. 
+They are linked using pointers to refer to next element if singly linked list, doubly linked list also point to previous element.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://static.javatpoint.com/ds/images/ds-introduction4.png&quot; alt=&quot;JavaTPoint Image&quot; /&gt;&lt;/p&gt;
 
@@ -55,12 +58,44 @@
 &lt;p&gt;Space Complexity(Worst case scenario: O(n)&lt;/p&gt;
 
 &lt;h6 id=&quot;stack&quot;&gt;Stack&lt;/h6&gt;
-&lt;p&gt;LIFO(Last In, First Out)&lt;/p&gt;
+&lt;p&gt;Stack follows the order LIFO(Last In, First Out), which mean the first element inserted is the last to be removed. 
+Entering data called push and retrieving data called pop in a stack. 
+We can access only the Stack’s tops at any given time.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://static.javatpoint.com/ds/images/ds-introduction5.png&quot; alt=&quot;JavaTPoint Image&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;left&quot;&gt;
+  &lt;img alt=&quot;Light&quot; src=&quot;https://static.javatpoint.com/ds/images/ds-introduction5.png&quot; width=&quot;20%&quot; align=&quot;left&quot; /&gt;
+  &lt;img alt=&quot;Dark&quot; src=&quot;https://static.javatpoint.com/ds/images/ds-introduction6.png&quot; width=&quot;35%&quot; align=&quot;middle&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Time Complexity(Worst case scenario):&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Access: O(n)&lt;/li&gt;
+  &lt;li&gt;Search: O(n)&lt;/li&gt;
+  &lt;li&gt;Insertion: O(1)&lt;/li&gt;
+  &lt;li&gt;Deletion: O(1)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Space Complexity(Worst case scenario: O(n)&lt;/p&gt;
 
 &lt;h6 id=&quot;queue&quot;&gt;Queue&lt;/h6&gt;
-&lt;p&gt;FIFO(First In, First Out)&lt;/p&gt;
+&lt;p&gt;Queue follows the order FIFO(First In, First Out) which means the first element inserted is also the first to be removed.
+Insertion or Addition an element to the queue is called Enqueue while deleting or removing an element is called dequeue.&lt;/p&gt;
+
+&lt;p align=&quot;left&quot;&gt;
+  &lt;img alt=&quot;Light&quot; src=&quot;https://static.javatpoint.com/ds/images/ds-introduction7.png&quot; width=&quot;30%&quot; align=&quot;left&quot; /&gt;
+&lt;img alt=&quot;Dark&quot; src=&quot;https://static.javatpoint.com/ds/images/ds-introduction8.png&quot; width=&quot;50%&quot; align=&quot;middle&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+Time Complexity(Worst case scenario):&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Access: O(n)&lt;/li&gt;
+  &lt;li&gt;Search: O(n)&lt;/li&gt;
+  &lt;li&gt;Insertion: O(1)&lt;/li&gt;
+  &lt;li&gt;Deletion: O(1)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Space Complexity(Worst case scenario: O(n)&lt;/p&gt;
 
 &lt;h5 id=&quot;non-linear-data-structures&quot;&gt;Non-Linear Data Structures&lt;/h5&gt;
 &lt;p&gt;The data are not placed sequentially or linearly. The elements point to multiples other elements.&lt;/p&gt;
