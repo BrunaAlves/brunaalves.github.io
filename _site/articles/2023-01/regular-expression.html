@@ -8,16 +8,16 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="A brief explanation about Regular expression.">
+  <meta name="description" content="A brief explanation about the basic of regular expression.">
   <meta name="keywords" content="blog and jekyll">
-  <meta name="author" content="Regular expression | Bruna Alves">
+  <meta name="author" content="Basic syntax of regular expression | Bruna Alves">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#f5f5f5">
 
   <!-- Twitter Tags -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Regular expression | Bruna Alves">
-  <meta name="twitter:description" content="A brief explanation about Regular expression.">
+  <meta name="twitter:title" content="Basic syntax of regular expression | Bruna Alves">
+  <meta name="twitter:description" content="A brief explanation about the basic of regular expression.">
   
     <meta property="twitter:image" content="http://localhost:4000/img/leonids-logo.png">
   
@@ -25,12 +25,12 @@
   <!-- Open Graph Tags -->
   <meta property="og:type" content="blog">
   <meta property="og:url" content="http://localhost:4000/articles/2023-01/regular-expression">
-  <meta property="og:title" content="Regular expression | Bruna Alves">
-  <meta property="og:description" content="A brief explanation about Regular expression.">
+  <meta property="og:title" content="Basic syntax of regular expression | Bruna Alves">
+  <meta property="og:description" content="A brief explanation about the basic of regular expression.">
   
     <meta property="og:image" content="http://localhost:4000/img/leonids-logo.png">
   
-  <title>Regular expression | Bruna Alves</title>
+  <title>Basic syntax of regular expression | Bruna Alves</title>
 
   <!-- CSS files -->
   <link rel="stylesheet" href="http://localhost:4000/css/font-awesome.min.css">
@@ -142,10 +142,10 @@
 
 <div id="post">
   <header class="post-header">
-    <h1 title="Regular expression">Regular expression</h1>
+    <h1 title="Basic syntax of regular expression">Basic syntax of regular expression</h1>
     <span class="post-meta">
       <span class="post-date">
-        8 JAN 2023
+        11 JAN 2023
       </span>
       •
       <span class="read-time" title="Estimated read time">
@@ -160,47 +160,84 @@
   </header>
 
   <article class="post-content">
-    <p>A brief explanation about Regular expression.</p>
+    <p>A brief explanation about the basic of regular expression.</p>
 
 <!--more-->
 
 <h3 id="what-is-regular-expression">What is Regular expression?</h3>
-
 <p>It is a technology for expression pattern of text using symbols.</p>
 
-<h6 id="allow-lower-and-upper-case-">Allow lower and upper case: []</h6>
+<h4 id="allow-lower-and-upper-case-">Allow lower and upper case: []</h4>
 <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"cat"</span><span class="o">.</span><span class="na">matches</span><span class="o">(</span><span class="s">"[cC]at"</span><span class="o">);</span>
 </code></pre></div></div>
 <p>Express a range</p>
 <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"cat"</span><span class="o">.</span><span class="na">matches</span><span class="o">(</span><span class="s">"[a-fA-Fw-zW-Z]at"</span><span class="o">);</span>
 </code></pre></div></div>
 
-<h6 id="not-in-">Not in: ^</h6>
+<h4 id="not-in-">Not in: ^</h4>
 <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"cat"</span><span class="o">.</span><span class="na">matches</span><span class="o">(</span><span class="s">"[^c]at"</span><span class="o">);</span>
 </code></pre></div></div>
 <p>Not in a range</p>
 <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"cat"</span><span class="o">.</span><span class="na">matches</span><span class="o">(</span><span class="s">"[^a-z]at"</span><span class="o">);</span>
 </code></pre></div></div>
 
-<h6 id="match-any-character-w">Match any character: \w</h6>
+<h4 id="match-any-character-w">Match any character: \w</h4>
 <p>One word character follow by at. Also allow numbers.</p>
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"cat"</span><span class="o">.</span><span class="na">matches</span><span class="o">(</span><span class="s">"\wat"</span><span class="o">);</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"cat"</span><span class="o">.</span><span class="na">matches</span><span class="o">(</span><span class="s">"\\wat"</span><span class="o">);</span>
 </code></pre></div></div>
 
-<h6 id="match-any-numberdigits-d">Match any number/digits: \d</h6>
+<h4 id="match-any-numberdigits-d">Match any number/digits: \d</h4>
 <p>One word character follow by at. Also allow numbers.</p>
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"cat2"</span><span class="o">.</span><span class="na">matches</span><span class="o">(</span><span class="s">"\wat\d"</span><span class="o">);</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"cat2"</span><span class="o">.</span><span class="na">matches</span><span class="o">(</span><span class="s">"\\wat\\d"</span><span class="o">);</span>
 </code></pre></div></div>
 
-<h6 id="match-space-s">Match space: \s</h6>
+<h4 id="match-space-s">Match space: \s</h4>
 <p>One word character follow by at. Also allow numbers.</p>
-<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"cat 2"</span><span class="o">.</span><span class="na">matches</span><span class="o">(</span><span class="s">"\wat\s\d"</span><span class="o">);</span>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"cat 2"</span><span class="o">.</span><span class="na">matches</span><span class="o">(</span><span class="s">"\\wat\\s\\d"</span><span class="o">);</span>
+</code></pre></div></div>
+
+<h4 id="match-group-of-digits">Match group of digits:</h4>
+<h6 id="digit-and-space-repeatable-at-n-times-">Digit and space repeatable at n times {}</h6>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"321-333-7652"</span><span class="o">.</span><span class="na">matches</span><span class="o">(</span><span class="s">"\\d{3}-\\d{3}-\\d{4}"</span><span class="o">);</span>
+</code></pre></div></div>
+
+<h6 id="group-od-different-characters-">Group od different characters []</h6>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"321-333.7652"</span><span class="o">.</span><span class="na">matches</span><span class="o">(</span><span class="s">"\\d{3}[-,.\\s]\d{3}[-,.\\s]\\d{4}"</span><span class="o">);</span>
+</code></pre></div></div>
+
+<h6 id="one-or-more-what-there-is-beforeone-or-more-space-in-that-case-">One or more what there is before(One or more space in that case): +</h6>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"321-333    7652"</span><span class="o">.</span><span class="na">matches</span><span class="o">(</span><span class="s">"\\d{3}[-,.\\s]+\d{3}[-,.\\s]+\\d{4}"</span><span class="o">);</span>
+</code></pre></div></div>
+
+<h6 id="possibility-of-zero-or-more-">Possibility of zero or more: *</h6>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"321-3337652"</span><span class="o">.</span><span class="na">matches</span><span class="o">(</span><span class="s">"\\d{3}[-,.\\s]*\d{3}[-,.\\s]*\\d{4}"</span><span class="o">);</span>
+</code></pre></div></div>
+
+<h6 id="zero-or-just-one-">Zero or just one: ?</h6>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"321-3337652"</span><span class="o">.</span><span class="na">matches</span><span class="o">(</span><span class="s">"\\d{3}[-,.\\s]?\d{3}[-,.\\s]?\\d{4}"</span><span class="o">);</span>
+</code></pre></div></div>
+
+<h6 id="min-and-max-range-nn">Min and max range: {n,n}</h6>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"321-333-652"</span><span class="o">.</span><span class="na">matches</span><span class="o">(</span><span class="s">"\\d{3}[-,.\\s]?\d{3}[-,.\\s]?\\d{3,4}"</span><span class="o">);</span>
+</code></pre></div></div>
+
+<h6 id="specify-one-or-the-othermin-3-digit-with-no-upper-limit-n">Specify one or the other(min 3 digit with no upper limit): {n,}</h6>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"321-333-652"</span><span class="o">.</span><span class="na">matches</span><span class="o">(</span><span class="s">"\\d{3}[-,.\\s]?\d{3}[-,.\\s]?\\d{3,}"</span><span class="o">);</span>
+</code></pre></div></div>
+
+<h6 id="reduce-repeatable-chars">Reduce repeatable chars:</h6>
+
+<p>Before</p>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"321-333-652"</span><span class="o">.</span><span class="na">matches</span><span class="o">(</span><span class="s">"\\d{3}[-.,\s]?\\d{3}[-.,\s]?\\d{4}"</span><span class="o">);</span>
+</code></pre></div></div>
+
+<p>After(group repeatable 2 times)</p>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="s">"321-333-652"</span><span class="o">.</span><span class="na">matches</span><span class="o">(</span><span class="s">"(\\d{3}[-.,\\s]?){2}\\d{4}"</span><span class="o">);</span>
 </code></pre></div></div>
 
 <p>References:</p>
-
 <ul>
-  <li></li>
+  <li>https://www.udemy.com/course/neutrino-java-foundations</li>
 </ul>
 
   </article>
