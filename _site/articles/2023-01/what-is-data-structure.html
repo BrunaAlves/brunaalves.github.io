@@ -145,13 +145,13 @@
     <h1 title="What is data structure?">What is data structure?</h1>
     <span class="post-meta">
       <span class="post-date">
-        5 JAN 2023
+        11 JAN 2023
       </span>
       •
       <span class="read-time" title="Estimated read time">
   
   
-    1 min read
+    2 mins read
   
 </span>
 
@@ -166,21 +166,119 @@
 
 <h3 id="what-is-data-structure">What is Data Structure?</h3>
 
-<p>A data structure is a way to store, organize, process and retrieve data in the computer memory. It is a way of arranging data and access it in an efficient way.</p>
+<p>A data structure is a way to store, organize, process and retrieve data in the computer memory. It’s arrange data and access it in an efficient way.</p>
 
 <h4 id="types-of-data-structure">Types of Data Structure</h4>
 
 <h5 id="linear-data-structures">Linear Data Structures</h5>
+<p>As the name says, the data are arranged sequentially or linearly. Each element points to its previous and next adjacent elements.</p>
 
 <h6 id="array">Array</h6>
-<h6 id="stack">Stack</h6>
-<h6 id="queue">Queue</h6>
+<p>An array is a static data structure with multiple fixed number of elements and the same data type that can be modified later. 
+Each element has its own place/index in the list even though they shared the same variable name. 
+In every index it’s possible to set a value and this value/element can be access by its specific index, helping to find the value in the list.</p>
+
+<p><img src="https://static.javatpoint.com/ds/images/ds-introduction3.png" alt="JavaTPoint Image" /></p>
+
+<p>Time Complexity(Worst case scenario):</p>
+<ul>
+  <li>Access: O(1)</li>
+  <li>Search: O(n)</li>
+  <li>Insertion: O(n)</li>
+  <li>Deletion: O(n)</li>
+</ul>
+
+<p>Space Complexity(Worst case scenario: O(n)</p>
+
 <h6 id="linked-list">Linked list</h6>
+<p>A linked list store a collection of data elements dynamically, separating them and stored consecutively in the memory. 
+They are linked using pointers to refer to next element if singly linked list, doubly linked list also point to previous element.</p>
+
+<p><img src="https://static.javatpoint.com/ds/images/ds-introduction4.png" alt="JavaTPoint Image" /></p>
+
+<p>Time Complexity(Worst case scenario):</p>
+<ul>
+  <li>Access: O(n)</li>
+  <li>Search: O(n)</li>
+  <li>Insertion: O(1)</li>
+  <li>Deletion: O(1)</li>
+</ul>
+
+<p>Space Complexity(Worst case scenario: O(n)</p>
+
+<h6 id="stack">Stack</h6>
+<p>Stack follows the order LIFO(Last In, First Out), which mean the first element inserted is the last to be removed. 
+Entering data called push and retrieving data called pop in a stack. 
+We can access only the Stack’s tops at any given time.</p>
+
+<p align="left">
+  <img alt="Light" src="https://static.javatpoint.com/ds/images/ds-introduction5.png" width="20%" align="left" />
+  <img alt="Dark" src="https://static.javatpoint.com/ds/images/ds-introduction6.png" width="35%" align="middle" />
+</p>
+
+<p>Time Complexity(Worst case scenario):</p>
+<ul>
+  <li>Access: O(n)</li>
+  <li>Search: O(n)</li>
+  <li>Insertion: O(1)</li>
+  <li>Deletion: O(1)</li>
+</ul>
+
+<p>Space Complexity(Worst case scenario: O(n)</p>
+
+<h6 id="queue">Queue</h6>
+<p>Queue follows the order FIFO(First In, First Out) which means the first element inserted is also the first to be removed.
+Insertion or Addition an element to the queue is called Enqueue while deleting or removing an element is called dequeue.</p>
+
+<p align="left">
+  <img alt="Light" src="https://static.javatpoint.com/ds/images/ds-introduction7.png" width="30%" align="left" />
+<img alt="Dark" src="https://static.javatpoint.com/ds/images/ds-introduction8.png" width="50%" align="middle" />
+</p>
+
+<p><br /><br />
+Time Complexity(Worst case scenario):</p>
+<ul>
+  <li>Access: O(n)</li>
+  <li>Search: O(n)</li>
+  <li>Insertion: O(1)</li>
+  <li>Deletion: O(1)</li>
+</ul>
+
+<p>Space Complexity(Worst case scenario: O(n)</p>
 
 <h5 id="non-linear-data-structures">Non-Linear Data Structures</h5>
+<p>The data are not placed sequentially or linearly. The elements point to multiples other elements.</p>
 
 <h6 id="tree">Tree</h6>
+<p>It contains a collection of nodes in a hierarchy, which every node parent has other 1 or 2 children, and so on for each child.
+It does not store the data sequentially but multiple levels.</p>
+
+<p><img src="https://static.javatpoint.com/ds/images/ds-introduction9.png" alt="JavaTPoint Image" /></p>
+
+<p>Time Complexity(Worst case scenario):</p>
+<ul>
+  <li>Access: O(n)</li>
+  <li>Search: O(n)</li>
+  <li>Insertion: O(n)</li>
+  <li>Deletion: O(n)</li>
+</ul>
+
+<p>Space Complexity(Worst case scenario: O(n)</p>
+
 <h6 id="graph">Graph</h6>
+<p>A graph doesn’t have root node and no standard order of arranged. It contains a finite number of nodes or vertices and the edges connecting them.</p>
+
+<p><img src="https://static.javatpoint.com/ds/images/ds-introduction10.png" alt="JavaTPoint Image" /></p>
+
+<p>Time Complexity(Worst case scenario):</p>
+<ul>
+  <li>Access: O(n)</li>
+  <li>Search: O(n)</li>
+  <li>Insertion: O(n)</li>
+  <li>Deletion: O(n)</li>
+</ul>
+
+<p>Space Complexity(Worst case scenario: O(n)</p>
 
 <p>References:</p>
 
