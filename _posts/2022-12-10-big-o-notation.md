@@ -7,10 +7,9 @@ comments: true
 ---
 On my path learning data structure, I thought It'd be nice to make a post with a quick explanation about Big O notation with Java examples.
 
-![Big O]({{ site.url }}/img/big-o-graph.png){:height="330px" width="520px"}
-
-
 <!--more-->
+
+<img alt="Light" src="{{ site.url }}/img/big-o-graph.png" width="55%">
 
 ### What is Big O?
 
