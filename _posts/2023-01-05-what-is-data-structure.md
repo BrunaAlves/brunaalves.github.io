@@ -12,24 +12,49 @@ A quick explanation about what is data structure and its types.
 
 ### What is Data Structure?
 
-A data structure is a way to store, organize, process and retrieve data in the computer memory. It is a way of arranging data and access it in an efficient way.
+A data structure is a way to store, organize, process and retrieve data in the computer memory. It's arrange data and access it in an efficient way.
 
 #### Types of Data Structure
 
 ##### Linear Data Structures
-As the name says, the data are arranged sequentially or linearly.Each element points to its previous and next adjacent elements.
+As the name says, the data are arranged sequentially or linearly. Each element points to its previous and next adjacent elements.
 
 ###### Array
-An array is a data structure with multiple fix number of elements and the same data type.
+An array is a static data structure with multiple fixed number of elements and the same data type that can be modified later. Each element has its own place/index in the list even though they shared the same variable name. In every index it's possible to set a value and this value/element can be access by its specific index, helping to find the value in the list.
+
+![JavaTPoint Image](https://static.javatpoint.com/ds/images/ds-introduction3.png)
+
+Time Complexity(Worst case scenario):
+- Access: O(1)
+- Search: O(n)
+- Insertion: O(n)
+- Deletion: O(n)
+
+Space Complexity(Worst case scenario: O(n)
+
+###### Linked list
+A linked list store a collection of data elements dynamically, separating them and stored consecutively in the memory. They are linked using pointers to refer to next element if singly linked list, doubly linked list also point to previous element.
+
+![JavaTPoint Image](https://static.javatpoint.com/ds/images/ds-introduction4.png)
+
+Time Complexity(Worst case scenario):
+- Access: O(n)
+- Search: O(n)
+- Insertion: O(1)
+- Deletion: O(1)
+
+Space Complexity(Worst case scenario: O(n)
 
 ###### Stack
 LIFO(Last In, First Out)
 
+![JavaTPoint Image](https://static.javatpoint.com/ds/images/ds-introduction5.png)
+
+
 ###### Queue
 FIFO(First In, First Out)
 
-###### Linked list
-A linked list store a collection of data elements dynamically 
+
 
 ##### Non-Linear Data Structures
 The data are not placed sequentially or linearly. The elements point to multiples other elements.
