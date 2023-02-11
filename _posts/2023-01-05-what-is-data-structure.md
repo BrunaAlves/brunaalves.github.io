@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What is data structure?"
-date:   2023-01-11 15:56:19
+date:   2023-01-5 15:56:19
 categories: [data structure]
 comments: true
 ---
