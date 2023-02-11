@@ -6,6 +6,7 @@
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
     <pubDate>2023-02-11</pubDate>
+
     <lastBuildDate>Sat, 11 Feb 2023 17:49:00 +0100</lastBuildDate>
     <generator>Jekyll v3.9.2</generator>
     
@@ -97,6 +98,147 @@
         
         
         <category>regular expression</category>
+
+    <lastBuildDate>Sat, 11 Feb 2023 15:57:11 +0100</lastBuildDate>
+    <generator>Jekyll v3.9.2</generator>
+    
+      <item>
+        <title>What is data structure?</title>
+        <description>&lt;p&gt;A quick explanation about what is data structure and its types.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h3 id=&quot;what-is-data-structure&quot;&gt;What is Data Structure?&lt;/h3&gt;
+
+&lt;p&gt;A data structure is a way to store, organize, process and retrieve data in the computer memory. It’s arrange data and access it in an efficient way.&lt;/p&gt;
+
+&lt;h4 id=&quot;types-of-data-structure&quot;&gt;Types of Data Structure&lt;/h4&gt;
+
+&lt;h5 id=&quot;linear-data-structures&quot;&gt;Linear Data Structures&lt;/h5&gt;
+&lt;p&gt;As the name says, the data are arranged sequentially or linearly. Each element points to its previous and next adjacent elements.&lt;/p&gt;
+
+&lt;h6 id=&quot;array&quot;&gt;Array&lt;/h6&gt;
+&lt;p&gt;An array is a static data structure with multiple fixed number of elements and the same data type that can be modified later. 
+Each element has its own place/index in the list even though they shared the same variable name. 
+In every index it’s possible to set a value and this value/element can be access by its specific index, helping to find the value in the list.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://static.javatpoint.com/ds/images/ds-introduction3.png&quot; alt=&quot;JavaTPoint Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Time Complexity(Worst case scenario):&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Access: O(1)&lt;/li&gt;
+  &lt;li&gt;Search: O(n)&lt;/li&gt;
+  &lt;li&gt;Insertion: O(n)&lt;/li&gt;
+  &lt;li&gt;Deletion: O(n)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Space Complexity(Worst case scenario: O(n)&lt;/p&gt;
+
+&lt;h6 id=&quot;linked-list&quot;&gt;Linked list&lt;/h6&gt;
+&lt;p&gt;A linked list store a collection of data elements dynamically, separating them and stored consecutively in the memory. 
+They are linked using pointers to refer to next element if singly linked list, doubly linked list also point to previous element.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://static.javatpoint.com/ds/images/ds-introduction4.png&quot; alt=&quot;JavaTPoint Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Time Complexity(Worst case scenario):&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Access: O(n)&lt;/li&gt;
+  &lt;li&gt;Search: O(n)&lt;/li&gt;
+  &lt;li&gt;Insertion: O(1)&lt;/li&gt;
+  &lt;li&gt;Deletion: O(1)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Space Complexity(Worst case scenario: O(n)&lt;/p&gt;
+
+&lt;h6 id=&quot;stack&quot;&gt;Stack&lt;/h6&gt;
+&lt;p&gt;Stack follows the order LIFO(Last In, First Out), which mean the first element inserted is the last to be removed. 
+Entering data called push and retrieving data called pop in a stack. 
+We can access only the Stack’s tops at any given time.&lt;/p&gt;
+
+&lt;p align=&quot;left&quot;&gt;
+  &lt;img alt=&quot;Light&quot; src=&quot;https://static.javatpoint.com/ds/images/ds-introduction5.png&quot; width=&quot;20%&quot; align=&quot;left&quot; /&gt;
+  &lt;img alt=&quot;Dark&quot; src=&quot;https://static.javatpoint.com/ds/images/ds-introduction6.png&quot; width=&quot;35%&quot; align=&quot;middle&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Time Complexity(Worst case scenario):&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Access: O(n)&lt;/li&gt;
+  &lt;li&gt;Search: O(n)&lt;/li&gt;
+  &lt;li&gt;Insertion: O(1)&lt;/li&gt;
+  &lt;li&gt;Deletion: O(1)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Space Complexity(Worst case scenario: O(n)&lt;/p&gt;
+
+&lt;h6 id=&quot;queue&quot;&gt;Queue&lt;/h6&gt;
+&lt;p&gt;Queue follows the order FIFO(First In, First Out) which means the first element inserted is also the first to be removed.
+Insertion or Addition an element to the queue is called Enqueue while deleting or removing an element is called dequeue.&lt;/p&gt;
+
+&lt;p align=&quot;left&quot;&gt;
+  &lt;img alt=&quot;Light&quot; src=&quot;https://static.javatpoint.com/ds/images/ds-introduction7.png&quot; width=&quot;30%&quot; align=&quot;left&quot; /&gt;
+&lt;img alt=&quot;Dark&quot; src=&quot;https://static.javatpoint.com/ds/images/ds-introduction8.png&quot; width=&quot;50%&quot; align=&quot;middle&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+Time Complexity(Worst case scenario):&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Access: O(n)&lt;/li&gt;
+  &lt;li&gt;Search: O(n)&lt;/li&gt;
+  &lt;li&gt;Insertion: O(1)&lt;/li&gt;
+  &lt;li&gt;Deletion: O(1)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Space Complexity(Worst case scenario: O(n)&lt;/p&gt;
+
+&lt;h5 id=&quot;non-linear-data-structures&quot;&gt;Non-Linear Data Structures&lt;/h5&gt;
+&lt;p&gt;The data are not placed sequentially or linearly. The elements point to multiples other elements.&lt;/p&gt;
+
+&lt;h6 id=&quot;tree&quot;&gt;Tree&lt;/h6&gt;
+&lt;p&gt;It contains a collection of nodes in a hierarchy, which every node parent has other 1 or 2 children, and so on for each child.
+It does not store the data sequentially but multiple levels.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://static.javatpoint.com/ds/images/ds-introduction9.png&quot; alt=&quot;JavaTPoint Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Time Complexity(Worst case scenario):&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Access: O(n)&lt;/li&gt;
+  &lt;li&gt;Search: O(n)&lt;/li&gt;
+  &lt;li&gt;Insertion: O(n)&lt;/li&gt;
+  &lt;li&gt;Deletion: O(n)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Space Complexity(Worst case scenario: O(n)&lt;/p&gt;
+
+&lt;h6 id=&quot;graph&quot;&gt;Graph&lt;/h6&gt;
+&lt;p&gt;A graph doesn’t have root node and no standard order of arranged. It contains a finite number of nodes or vertices and the edges connecting them.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://static.javatpoint.com/ds/images/ds-introduction10.png&quot; alt=&quot;JavaTPoint Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Time Complexity(Worst case scenario):&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Access: O(n)&lt;/li&gt;
+  &lt;li&gt;Search: O(n)&lt;/li&gt;
+  &lt;li&gt;Insertion: O(n)&lt;/li&gt;
+  &lt;li&gt;Deletion: O(n)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Space Complexity(Worst case scenario: O(n)&lt;/p&gt;
+
+&lt;p&gt;References:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://www.geeksforgeeks.org/what-is-data-structure-types-classifications-and-applications/&lt;/li&gt;
+  &lt;li&gt;https://www.javatpoint.com/data-structure-introduction&lt;/li&gt;
+  &lt;li&gt;https://www.simplilearn.com/tutorials/data-structure-tutorial/what-is-data-structure&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>2023-02-11</pubDate>
+        <link>http://localhost:4000/articles/2023-01/what-is-data-structure</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2023-01/what-is-data-structure</guid>
+        
+        
+        <category>data structure</category>
+
         
       </item>
     
